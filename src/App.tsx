@@ -1,13 +1,13 @@
 import React from 'react';
 import './App.css';
-import Counter from './Components/Counter/Counter';
-// import Todo from './Components/Todo/Todo';
+// import Counter from './Components/Counter/Counter';
+import Todo from './Components/Todo/Todo';
 
 function App() {
   return (
     <div className="App">
-      {/* <Todo /> */}
-      <Counter />
+      <Todo />
+      {/* <Counter /> */}
     </div>
   );
 }

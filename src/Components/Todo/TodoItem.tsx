@@ -1,7 +1,7 @@
-import { TodoItemProps } from "./Todo"
+import { ITodoItemProps } from "./Todo"
 
 interface Props {
-    data: TodoItemProps
+    data: ITodoItemProps;
 }
 
 const TodoItem = ({data}: Props) => {

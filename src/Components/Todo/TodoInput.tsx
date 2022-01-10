@@ -1,4 +1,7 @@
 import { useState } from "react";
+import TextField from "@mui/material/TextField";
+import Button from "@mui/material/Button";
+
 
 interface Props {
     onSubmit: ( text: string ) => void
@@ -21,8 +24,8 @@ const TodoInput = ( props: Props ) => {
 
     return (
         <div>
-            <input type="text" value={text} onChange={onChange} />
-            <button onClick={handleAdd} >Add</button>
+            <TextField type="text" value={text} onChange={onChange} />
+            <Button variant="contained" onClick={handleAdd} >Add</Button>
         </div>
     );
 
